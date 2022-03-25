@@ -8,9 +8,9 @@ public class UnitConverter{
 	}
 	
 	public static void mainMenu(){
-		boolean loopMenu = true;
+		boolean loopMenu;
 	    
-		while(true){
+		while(loopMenu = true){
 		//Main Menu
 		System.out.println("Please select an option!");
 		System.out.println("<------------------------->\n");
@@ -59,9 +59,9 @@ public class UnitConverter{
 	public static void volumeMenuChoice(){
 		Scanner sc = new Scanner(System.in);
 		
-		boolean loopVolumeMenu = true;
+		boolean loopVolumeMenu;
 			//Volume Menu
-			while(true){
+			while(loopVolumeMenu = true){
 			System.out.println("What do you want to convert?");
 			System.out.println("<------------------------->\n");
 			System.out.println("1. Teaspoons to Tablespoons");
@@ -112,9 +112,9 @@ public class UnitConverter{
 	public static void distanceMenuChoice(){
 		Scanner scan = new Scanner(System.in);
 		
-		boolean loopDistanceMenu = true;
+		boolean loopDistanceMenu;
 			//Distance Menu
-			while(true){
+			while(loopDistanceMenu = true){
 			System.out.println("What do you want to convert?");
 			System.out.println("<------------------------->\n");
 			System.out.println("1. Feet to Meters");
